@@ -14,7 +14,7 @@ export default async function Home() {
         <AnimeList api={topAnime} />
       </section>
       <section>
-        <Header title="Newest" linkHref="/new" />
+        <Header title="Other" linkHref="/new" />
         <AnimeList api={topAnime} />
       </section>
     </div>
